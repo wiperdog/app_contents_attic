@@ -11,9 +11,9 @@
 <customClass></customClass>
 <contentAuthor>XWiki.Admin</contentAuthor>
 <creationDate>1376566693000</creationDate>
-<date>1376649661000</date>
+<date>1376880063000</date>
 <contentUpdateDate>1376646643000</contentUpdateDate>
-<version>4.6</version>
+<version>4.8</version>
 <title>JobDBConnectionConfiguration</title>
 <defaultTemplate></defaultTemplate>
 <validationScript></validationScript>
@@ -105,7 +105,7 @@
 var isDirty = false
 var previousSelectedDB = ""
 var previousSelectedJob = ""
-var domainURL = "http://luvina-thanhpt.luvina.net:13111/spool/tfm_test"
+var domainURL = "http://153.122.22.111:13111/DBCommonConfig"
 function deleteInstanceRecord(r){
 	var i= r.parentNode.parentNode.rowIndex;
 	var row = r.parentNode.parentNode
